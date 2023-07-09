@@ -32,8 +32,8 @@ body {
     font-size: 18px;;
     font-weight: 400;
     line-height: 30px;
-    margin-left: 156;
-    margin-right: 157px;
+    /* margin-left: 156; */
+    /* margin-right: 157px; */
 }
 
 /* nav related styles */
@@ -108,11 +108,26 @@ nav a {
 }
 
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px;
+}
 /* about section style */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* .info-description{
+    font-size: 20px;
+    font-weight: 400;
+} */
+.about-info{
+    text-align: center;
 }
